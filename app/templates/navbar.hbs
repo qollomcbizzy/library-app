@@ -1,0 +1,30 @@
+<nav class="navbar navbar-light" id="topNav">
+  <div class="container-fluid">
+    <div class="navbar-header" id="menuIcon">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only" >Toggle Navigation</span>
+        <span class="icon-bar" ></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{#link-to 'index' class="navbar-brand"}}Library App{{/link-to}}
+    </div>
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav">
+        {{#link-to 'index' tagName="li"}}<a href="">Home</a>{{/link-to}}
+          {{#link-to 'learning' tagName="li" id="drop"}}<a href="">E-learning</a>{{/link-to}}
+        <div class="row" id="dropContent">
+          <div class="col-md-2">
+            <ul>
+              <li><a href="">Students</a></li>
+              <li><a href="">Staffs</a></li>
+              <li><a href="">None staffs</a></li>
+            </ul>
+          </div>
+        </div>
+        {{#link-to 'about' tagName="li"}}<a href="">About</a>{{/link-to}}
+        {{#link-to 'contact' tagName="li"}}<a href="">Contact Us</a>{{/link-to}}
+      </ul>
+    </div>
+  </div>
+</nav>

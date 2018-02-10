@@ -1,0 +1,67 @@
+@import "bootstrap";
+body{
+  padding:20px;
+  background-image:url("../images/index1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  background-size: cover;
+}
+#topNav{
+  background-color: #1280ff;
+  spacing:10px;
+  font-weight: bold;
+  font-family: serif;
+}
+#topNav a{
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+#topNav a:hover{
+  color: white;
+  background-color: black;
+}
+#dropContent{
+  display: none;
+  position: absolute;
+}
+#drop :hover{
+    display: inline-block;
+}
+#menuIcon span{
+  background-color: white;
+}
+#contactForm{
+  color: blue;
+  font-size: 20px;
+  font-family: sans-serif;
+  word-spacing: 4px;
+}
+#contactForm [input=text]{
+  color: blue;
+}
+#jumbotron1{
+  background-color: black;
+  color: white;
+}
+#jumbotron1{
+
+}
+#jumbotron2{
+  padding: 20px;
+ background-color: black;
+ color: white;
+}
+#jumbotron2 h3{
+  text-align: center;
+  font-style: normal;
+}
+#bottom h2{
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: serif;
+  background-color:  #1280ff;
+}

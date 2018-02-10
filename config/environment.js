@@ -17,6 +17,14 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+    apiKey: "AIzaSyDYJQwFxoRS85Vrwy61aNceGHKEjQ6N3GM",
+    authDomain: "library-67291.firebaseapp.com",
+    databaseURL: "https://library-67291.firebaseio.com",
+    projectId: "library-67291",
+    storageBucket: "",
+    messagingSenderId: "489516330962"
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance
@@ -26,10 +34,10 @@ module.exports = function(environment) {
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
+       ENV.APP.LOG_ACTIVE_GENERATION = true;
+       ENV.APP.LOG_TRANSITIONS = true;
+       ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+       ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
   if (environment === 'test') {
