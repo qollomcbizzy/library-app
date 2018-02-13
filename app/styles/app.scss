@@ -1,11 +1,20 @@
 @import "bootstrap";
 body{
   padding:20px;
-  background-image:url("../images/index1.jpeg");
+  background-image:url("/assets/images/index1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
   background-size: cover;
+  opacity: 0.7;
+}
+#slideshow{
+  background-color: grey;
+  height: 400px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 5px 5px 5px 5px;
+
 }
 #topNav{
   background-color: #1280ff;
@@ -56,6 +65,14 @@ body{
 #jumbotron2 h3{
   text-align: center;
   font-style: normal;
+}
+#about{
+  background-color: grey;
+  height: 200px;
+}
+#aboutlocation{
+  background-color: white;
+  height: 200px;
 }
 #bottom h2{
   padding: 20px;
